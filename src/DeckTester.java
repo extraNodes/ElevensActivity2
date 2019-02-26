@@ -8,7 +8,13 @@ public class DeckTester {
      *	@param args is not used.
      */
     public static void main(String[] args) {
-		/* *** TO BE IMPLEMENTED IN ACTIVITY 2 *** */
+
+            String[] ranks = {"J", "Q", "K"};
+            String[] suits = {"☻", "♠"};
+            int[] pointValues = {8, 9, 10};
+            Deck d = new Deck(ranks, suits, pointValues);
+
+            System.out.println(d.toString());
     }
 }
 
